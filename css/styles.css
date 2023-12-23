@@ -733,11 +733,11 @@ Modal window  */
   transition: opacity 300ms easy-in;
 }
 
-.backdrop.is-open {
+/* .backdrop.is-open {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-}
+} */
 
 .modal {
   position: relative;
@@ -746,6 +746,9 @@ Modal window  */
   border-radius: 4px;
   background: #fcfcfc;
   padding: 24px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .button {
@@ -760,6 +763,7 @@ Modal window  */
   border-radius: 50%;
   border-color: #e7e9fc;
   margin-left: auto;
+  border: 1px;
 }
 
 .modal-text {
