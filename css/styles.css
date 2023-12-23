@@ -844,6 +844,11 @@ Modal window  */
   line-height: 1.17;
   letter-spacing: 0.04em;
 }
+
+.form {
+  position: relative;
+}
+
 .form-textarea {
   position: relative;
 }
