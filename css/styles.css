@@ -935,7 +935,7 @@ Modal window  */
   opacity: 0;
 }
 
-input:checked + .form-agreement-checkbox {
+#input:checked + .form-agreement-checkbox {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
@@ -974,6 +974,10 @@ input:checked + .form-agreement-checkbox {
   fill: #2e2f42;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-input:focus + .form-icon {
+  fill: #4d5ae5;
 }
 
 .agreement-link {
