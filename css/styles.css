@@ -774,6 +774,7 @@ Modal window  */
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 72px 24px 24px 24px;
 }
 
 .button {
@@ -788,6 +789,7 @@ Modal window  */
   justify-content: center;
   border-radius: 50%;
   border-color: #e7e9fc;
+  background-color: #e7e9fc;
   margin-left: auto;
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0;
@@ -799,12 +801,13 @@ Modal window  */
 .button:hover {
   background-color: #404bbf;
   border: none;
+  fill: #ffffff;
 }
-
 .button:focus {
   background-color: #404bbf;
+  border: none;
+  fill: #ffffff;
 }
-
 .modal-close {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -824,6 +827,10 @@ Modal window  */
   margin-bottom: 16px;
 }
 
+.modal-form-div {
+  margin-bottom: 8px;
+}
+
 .form-label {
   display: block;
   margin-bottom: 4px;
@@ -834,12 +841,12 @@ Modal window  */
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 14px; /* 116.667% */
-  letter-spacing: 0.48px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
 }
 .form {
   position: relative;
-  margin-bottom: 8px;
+  /* margin-bottom: 8px; */
 }
 
 .form-input {
