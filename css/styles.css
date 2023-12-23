@@ -935,7 +935,8 @@ Modal window  */
   opacity: 0;
 }
 
-#input:checked + .form-agreement-checkbox {
+.visually-hidden:checked,
+.form-agreement-checkbox {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
