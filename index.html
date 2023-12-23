@@ -484,15 +484,18 @@
 
 				<div class="modal-form-div-textarea">
 					<label class="form-label" for="user-comment">Comment</label>
-
-					<textarea class="modal-user-comment" id="user-comment" cols="30" rows="10"
+					<textarea class="modal-user-comment" id="user-comment" name="user-comment" cols="30" rows="10"
 						placeholder="Text input"></textarea>
 
 				</div>
 
 				<div class="privacy-teil">
 					<input class="checkbox" type="checkbox" name="user-privacy" id="user-privacy" value="true">
-					<p class="privacy-text">I accept the terms and conditions of the <a href="">Privacy Policy</a> </p>
+
+					<label class="privacy-text" for="user-privacy">I accept the terms and conditions of the</label>
+
+
+					<p class=""> <a href="">Privacy Policy</a> </p>
 				</div>
 				<button type="submit" class="buttom-send">Send</button>
 
