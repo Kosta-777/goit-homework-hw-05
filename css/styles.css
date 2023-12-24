@@ -778,7 +778,7 @@ Modal window  */
 }
 
 .button-close {
-  /* display: flex; */
+  display: flex;
   position: absolute;
   top: 24px;
   right: 24px;
@@ -924,6 +924,7 @@ Modal window  */
   display: inline-flex;
   fill: transparent;
   border: 1px solid rgba(46, 47, 66, 0.4);
+
   align-items: center;
   justify-content: center;
   width: 16px;
