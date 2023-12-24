@@ -778,6 +778,7 @@ Modal window  */
 }
 
 .button {
+  display: flex;
   position: absolute;
   top: 24px;
   right: 24px;
