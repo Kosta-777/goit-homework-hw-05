@@ -976,6 +976,10 @@ Modal window  */
   fill: #f4f4fd;
 }
 
+.visually:focus + .form-agreement-icon {
+  fill: #4d5ae5;
+}
+
 .agreement-link {
   color: #4d5ae5;
 }
