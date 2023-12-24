@@ -976,6 +976,9 @@ Modal window  */
   fill: #4d5ae5;
 }
 
+.visually:checked + .label-privacy > .form-agreement-checkbox {
+  fill: #21a859;
+}
 .visually:checked + .form-agreement-checkbox {
   fill: #21a859;
 }
