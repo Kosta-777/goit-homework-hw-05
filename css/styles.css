@@ -902,12 +902,10 @@ Modal window  */
 }
 
 .privacy-teil {
-  display: flex;
   margin-bottom: 24px;
 }
 
 .form-agreement {
-  display: block;
   margin-bottom: 24px;
 
   color: var(--LIGHT-SLATE, #8e8f99);
@@ -922,10 +920,10 @@ Modal window  */
 }
 
 .form-agreement-checkbox {
-  display: flex;
+  display: inline-flex;
   fill: transparent;
   border: 1px solid rgba(46, 47, 66, 0.4);
-  display: inline-flex;
+
   align-items: center;
   justify-content: center;
   width: 16px;
