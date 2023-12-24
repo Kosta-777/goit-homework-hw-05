@@ -798,12 +798,12 @@ Modal window  */
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button-close:hover {
+.button-closed:hover {
   background-color: #404bbf;
   border: none;
   fill: #ffffff;
 }
-.button-close:focus {
+.button-closed:focus {
   background-color: #404bbf;
   border: none;
   fill: #ffffff;
@@ -868,7 +868,7 @@ Modal window  */
 
 .form-input:focus {
   border-radius: 4px;
-  border: 1px solid var(--IRIS, #4d5ae5);
+  border-color: #4d5ae5;
 }
 
 .form-input:focus + .form-icon {
