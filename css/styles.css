@@ -972,15 +972,8 @@ Modal window  */
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-input:focus + .form-icon {
-  fill: #4d5ae5;
-}
-
-.visually:checked + .label-privacy > .form-agreement-checkbox {
-  fill: #21a859;
-}
 .visually:checked + .form-agreement-checkbox {
-  fill: #21a859;
+  fill: #f4f4fd;
 }
 
 .agreement-link {
