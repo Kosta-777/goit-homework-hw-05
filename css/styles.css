@@ -76,7 +76,7 @@ body {
   margin-right: 76px;
 }
 
-.link-menu.current {
+.current {
   color: #404bbf;
 }
 .link-menu.current::after {
@@ -121,7 +121,7 @@ body {
   padding-bottom: 24px;
   display: block;
   position: relative;
-  color: #404bbf;
+  /* color: #404bbf; */
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -716,7 +716,6 @@ body {
 .footer-button {
   display: flex;
   align-items: center;
-  gap: 16px;
   padding: 8px 24px;
   color: var(--WHITE, #fff);
   text-align: center;
@@ -737,6 +736,14 @@ body {
   background: var(--IRIS, #4d5ae5);
 }
 
+.footer-button:hover {
+  background: #404bbf;
+}
+
+.footer-button:focus {
+  background: #404bbf;
+}
+
 .footer-icon-submit {
   margin-left: 16px;
 }
@@ -753,13 +760,17 @@ Modal window  */
   height: 100vh;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.backdrop.is-close {
   opacity: 0;
   visibility: none;
   pointer-events: none;
 }
+
+/* .backdrop.is-close {
+  opacity: 0;
+  visibility: none;
+  pointer-events: none;
+} */
 
 .backdrop.is-open {
   opacity: 1;
@@ -829,7 +840,6 @@ Modal window  */
   font-weight: 500;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
-  margin-top: 24px;
   margin-bottom: 16px;
 }
 
@@ -870,6 +880,7 @@ Modal window  */
   background-color: transparent;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-size: 12px;
 }
 
 .form-input:focus {
@@ -942,6 +953,10 @@ Modal window  */
   margin-right: 8px;
 }
 
+.visually-hidden:focus + .label-privacy > .form-agreement-checkbox {
+  border-color: #4d5ae5;
+}
+
 .visually-hidden:checked + .label-privacy > .form-agreement-checkbox {
   background-color: #404bbf;
   border: none;
@@ -1001,6 +1016,7 @@ Modal window  */
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin: 0 auto;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .buttom-send:hover {
   background: #404bbf;
