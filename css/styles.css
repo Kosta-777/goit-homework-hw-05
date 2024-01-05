@@ -877,6 +877,11 @@ body {
 }
 @media screen and (min-width: 768px) {
   .footer-form {
+    margin-left: 0px;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .footer-form {
     margin-right: 0;
   }
 }
